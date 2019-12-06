@@ -3,7 +3,7 @@ const arrNotLong = (array, val) => {
 }
 
 const opCodeComputer = (input, opCodePos, valueSet) => {
-    const newValueSet = valueSet;
+    const newValueSet = valueSet;   
     const fullOpCode = valueSet[opCodePos];
     const digits = fullOpCode.toString().split('');
     const realDigits = digits.map(Number)
